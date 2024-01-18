@@ -1,0 +1,19 @@
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.recipe-details {
+    /* some styles */
+}
+
+.section-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ingredient-list, .instruction-list {
+    text-align: left;
+}

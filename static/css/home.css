@@ -1,0 +1,21 @@
+.meal {
+    border: 1px solid grey;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: rgb(224, 163, 224);
+    font-family: fantasy;
+    font-weight: bold;
+    color: black;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #dd65d1;
+}

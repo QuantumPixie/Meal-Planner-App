@@ -1,0 +1,240 @@
+{
+  "monday": {
+    "meals": [
+      {
+        "id": 1021260,
+        "imageType": "jpg",
+        "title": "Simple Protein Pancakes",
+        "readyInMinutes": 20,
+        "servings": 5,
+        "sourceUrl": "https://spoonacular.com/simple-protein-pancakes-1021260"
+      },
+      {
+        "id": 643634,
+        "imageType": "jpg",
+        "title": "Macaroni with Fresh Tomatoes and Beans",
+        "readyInMinutes": 25,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/macaroni-with-fresh-tomatoes-and-beans-643634"
+      },
+      {
+        "id": 982376,
+        "imageType": "jpg",
+        "title": "Chicken Noodle Casserole Dish",
+        "readyInMinutes": 35,
+        "servings": 6,
+        "sourceUrl": "https://spoonacular.com/chicken-noodle-casserole-dish-982376"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.87,
+      "protein": 102.7,
+      "fat": 60.42,
+      "carbohydrates": 264.42
+    }
+  },
+  "tuesday": {
+    "meals": [
+      {
+        "id": 648632,
+        "imageType": "jpg",
+        "title": "Jules' Banana Bread",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/jules-banana-bread-648632"
+      },
+      {
+        "id": 1171085,
+        "imageType": "jpg",
+        "title": "How to Make an Easy Chicken Enchilada",
+        "readyInMinutes": 25,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/how-to-make-an-easy-chicken-enchilada-1171085"
+      },
+      {
+        "id": 1697611,
+        "imageType": "jpg",
+        "title": "Chili con Carne that'll make your taste buds go silly",
+        "readyInMinutes": 150,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/chili-con-carne-thatll-make-your-taste-buds-go-silly-1697611"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.92,
+      "protein": 119.11,
+      "fat": 109.36,
+      "carbohydrates": 144.68
+    }
+  },
+  "wednesday": {
+    "meals": [
+      {
+        "id": 1018582,
+        "imageType": "jpg",
+        "title": "Delicious Mango Pineapple Smoothie",
+        "readyInMinutes": 10,
+        "servings": 2,
+        "sourceUrl": "https://spoonacular.com/delicious-mango-pineapple-smoothie-1018582"
+      },
+      {
+        "id": 643634,
+        "imageType": "jpg",
+        "title": "Macaroni with Fresh Tomatoes and Beans",
+        "readyInMinutes": 25,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/macaroni-with-fresh-tomatoes-and-beans-643634"
+      },
+      {
+        "id": 641565,
+        "imageType": "jpg",
+        "title": "Donkatsu - Korean Breaded Pork Cutlet",
+        "readyInMinutes": 30,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/donkatsu-korean-breaded-pork-cutlet-641565"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.99,
+      "protein": 94.34,
+      "fat": 68.32,
+      "carbohydrates": 254.33
+    }
+  },
+  "thursday": {
+    "meals": [
+      {
+        "id": 655195,
+        "imageType": "jpg",
+        "title": "Peachy NanaNut Smoothie",
+        "readyInMinutes": 45,
+        "servings": 2,
+        "sourceUrl": "https://spoonacular.com/peachy-nananut-smoothie-655195"
+      },
+      {
+        "id": 1697625,
+        "imageType": "jpg",
+        "title": "Light and Tasty Tomato Basil Mozzarella Pasta for a Hot Summer Evening",
+        "readyInMinutes": 25,
+        "servings": 2,
+        "sourceUrl": "https://spoonacular.com/light-and-tasty-tomato-basil-mozzarella-pasta-for-a-hot-summer-evening-1697625"
+      },
+      {
+        "id": 641687,
+        "imageType": "jpg",
+        "title": "Dry Mee Siam",
+        "readyInMinutes": 45,
+        "servings": 3,
+        "sourceUrl": "https://spoonacular.com/dry-mee-siam-641687"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.93,
+      "protein": 62.14,
+      "fat": 68.89,
+      "carbohydrates": 282.3
+    }
+  },
+  "friday": {
+    "meals": [
+      {
+        "id": 658134,
+        "imageType": "jpg",
+        "title": "Redneck Breakfast on a Croissant",
+        "readyInMinutes": 45,
+        "servings": 1,
+        "sourceUrl": "https://spoonacular.com/redneck-breakfast-on-a-croissant-658134"
+      },
+      {
+        "id": 1697577,
+        "imageType": "jpg",
+        "title": "Spanish Sardines Pasta",
+        "readyInMinutes": 25,
+        "servings": 2,
+        "sourceUrl": "https://spoonacular.com/spanish-sardines-pasta-1697577"
+      },
+      {
+        "id": 1697703,
+        "imageType": "jpg",
+        "title": "Butternut Squash Pasta",
+        "readyInMinutes": 60,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/butternut-squash-pasta-1697703"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.97,
+      "protein": 80.26,
+      "fat": 87.63,
+      "carbohydrates": 225.78
+    }
+  },
+  "saturday": {
+    "meals": [
+      {
+        "id": 637675,
+        "imageType": "jpg",
+        "title": "Cheesy Potato Corn Scones",
+        "readyInMinutes": 45,
+        "servings": 8,
+        "sourceUrl": "https://spoonacular.com/cheesy-potato-corn-scones-637675"
+      },
+      {
+        "id": 642583,
+        "imageType": "jpg",
+        "title": "Farfalle with Peas, Ham and Cream",
+        "readyInMinutes": 30,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/farfalle-with-peas-ham-and-cream-642583"
+      },
+      {
+        "id": 639752,
+        "imageType": "jpg",
+        "title": "Coconut Crusted Rockfish",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/coconut-crusted-rockfish-639752"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.91,
+      "protein": 100.36,
+      "fat": 102.49,
+      "carbohydrates": 169.94
+    }
+  },
+  "sunday": {
+    "meals": [
+      {
+        "id": 634882,
+        "imageType": "jpg",
+        "title": "Best Breakfast Burrito",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/best-breakfast-burrito-634882"
+      },
+      {
+        "id": 1098354,
+        "imageType": "jpg",
+        "title": "Rotisserie Chicken and Bean Tostadas",
+        "readyInMinutes": 30,
+        "servings": 3,
+        "sourceUrl": "https://spoonacular.com/rotisserie-chicken-and-bean-tostadas-1098354"
+      },
+      {
+        "id": 637323,
+        "imageType": "jpg",
+        "title": "Cauliflower, Leek and Cheddar Cheese Soup",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "https://spoonacular.com/cauliflower-leek-and-cheddar-cheese-soup-637323"
+      }
+    ],
+    "nutrients": {
+      "calories": 1999.98,
+      "protein": 105.98,
+      "fat": 97.24,
+      "carbohydrates": 183.69
+    }
+  }
+}

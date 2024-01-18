@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    background-image: url('/static/images/background-herbs.jpeg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: left; 
+}
+
+ol,
+ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 30px;
+    padding-top: 10px;
+    line-height: 1.2rem;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+ol li {
+    margin-bottom: 1rem;
+}
+
+ul li {
+    margin-bottom: .5rem;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 900px; 
+    margin: 50px auto 0;
+    border-radius: 10px;
+    text-align: left; 
+}
+
+.content {
+    padding: 0 40px 60px;
+}
+
+/* Styles for larger screens
+@media (min-width: 601px) {
+    .content-container {
+        width: 60%;
+    }
+}
+
+Styles for smaller screens
+@media (max-width: 600px) {
+    .content-container {
+        width: 90%;
+    }
+} */

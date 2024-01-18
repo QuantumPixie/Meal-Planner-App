@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Meal Plan</title>
+    <link rel="stylesheet" href="/static/css/global_styles.css" integrity="KEY" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/home.css" integrity="KEY" crossorigin="anonymous">
+    <script src="/static/js/script.js"></script>
+</head>
+<body>
+    <div class="background-container">
+        <div class="content-container">
+
+            {% extends 'nav.html' %}
+
+            {% block title %}Home - Meal Planner{% endblock %}
+
+            {% block content %}
+    
+            <h1>Weekly Meal Plan</h1>
+
+                    {% for day, meals in meals_by_day.items() %}
+                <h2>{{ day }}</h2>
+
+                    {% for meal in meals %}
+                        <div class="meal">
+                            {% if meal %}
+                                {% if loop.index == 1 %}
+                                    Breakfast:
+                                {% elif loop.index == 2 %}
+                                    Lunch:
+                                {% elif loop.index == 3 %}
+                                    Dinner:
+                                {% endif %}
+
+                                <a href="{{ url_for('get_recipe', recipe_id=meal['id']) }}">{{ meal['title'] }}</a>
+                                <p>Servings: {{ meal['servings'] }}</p>
+                                <p>Time to cook: {{ meal['readyInMinutes'] }}</p>
+                                <button class="add-button" onclick="add_to_custom_meal_plan('{{ day }}', '{{ meal['id'] }}')">Add</button>
+
+                            {% else %}
+                                <p>No {{ meal_type }}</p>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+
+            {% endfor %}
+        </div>
+    </div>
+</body>
+{% endblock %}
+</html>
+

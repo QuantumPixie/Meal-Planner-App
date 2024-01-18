@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/global_styles.css" integrity="KEY" crossorigin="anonymous">
+    <title>Custom Meal Plan</title>
+</head>
+<body>
+    <div class="background-container">
+        <div class="content-container">
+
+            {% extends 'nav.html' %}
+
+            {% block title %}Custom Meal Plan - Meal Planner{% endblock %}
+
+            {% block content %}
+
+    <h1>Custom Meal Plan</h1>
+    
+    {% if custom_meal_plan %}
+        {% for day, meals in custom_meal_plan.items() %}
+            <h2>{{ day }}</h2>
+            <ul>
+                {% for meal in meals %}
+                    <li>{{ meal.title }}</li>
+                    
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    {% else %}
+        <p>No custom meal plan available.</p>
+    {% endif %}
+    </div>
+    </div>
+</body>
+{% endblock %}
+</html>

@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('display_custom_meal_plan') }}">Custom Meal Plan</a></li>
+        
+    </ul>
+</nav>
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
