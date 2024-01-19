@@ -222,4 +222,14 @@ def find_meal_info(meal_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+
+# TODO:
+
+# Generate a shopping list based on the selected custom meal plan
+# Refresh Mealplanner if meals are not enjoyed
+# Remove Meals from the Custom Meal Plan
+# Automate sending the Meal Plan including the shopping list to the inbox
    
