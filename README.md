@@ -27,7 +27,7 @@ Clone the repository to your local machine:
 
 bash
 
-Copy git clone https://github.com/TuringCollegeSubmissions/thuppe-FPCS.4.4.git
+Copy git clone https://github.com/QuantumPixie/Meal-Planner-App.git
 
 Set up a .env file in the project root with your Spoonacular API key:
 env
